@@ -1,0 +1,316 @@
+* {
+    box-sizing: border-box;
+
+    /* background-color:rgb(252, 122, 121, 0.4);*/
+}
+
+body {
+    font-family: 'Lobster', serif;
+    background-color: rgb(252, 122, 121, 0.3);
+
+}
+
+.header {
+    /* background:rgb(252, 122, 121, 0.4);*/
+    display: flex;
+    justify-content: space-between;
+    height: 21vh;
+   box-shadow: 5px 5px 5px 5px #813d3d; 
+}
+
+.header h1 {
+    color: #ba5150;
+    font-size: 40px;
+    flex: 2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+     
+}
+
+.header h2 {
+    color: #ba5150;
+    font-size: 20px;
+    flex: 1;
+}
+
+.header p {
+    flex: 1;
+
+}
+
+
+li a {
+    color: #eb6968;
+    font-weight: 300px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    /*  background-color:#fab1a0;*/
+    padding: 20px 5px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    box-shadow: 5px 5px 5px #813d3d;
+
+}
+
+a {
+    color: #b23a39;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a:hover {
+    background: #c4887a;
+    color: white;
+
+}
+
+.navigation ul {
+    list-style: none;
+    border: 1px solid #ff00eb margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navigation li {
+    flex: 3;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article {
+    flex: 2;
+    padding: 50px;
+    font-size: 20px;
+    font-weight: 100;
+    color: #ba5150;
+}
+
+.aside {
+    flex: 1;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 100;
+    color: #ba5150;
+    order: 1;
+}
+
+.DesignerImages {
+    flex: 2;
+    order: 2;
+    padding: 10px;
+    10px;
+
+}
+
+.slideshow {
+    flex: 1;
+    /* background-color:rgb(252, 122, 121, 0.4);*/
+    padding: 20px;
+
+}
+
+.slideshow {
+    width: 500px;
+    height: 400px;
+    background: url(ImagesProject/HayleyPaigeA-lineBeadedembroideredbodiceillusionplunge.jpg);
+    margin: 100px auto;
+    animation: slide 40s infinite;
+}
+
+@keyframes slide {
+    9.1% {
+        background: url(ImagesProject/HayleyPaigeBallgownStraplesscrossoverbodicechapeltrain.jpg);
+    }
+
+    18.2% {
+        background: url(ImagesProject/HayleyPaigeTrumpetOpenbackfluttersleevelacesparkletrain.jpg);
+    }
+
+    27.3% {
+        background: url(ImagesProject/LazaroA-lineFloralillusionsweetheartcircular%20skirt.jpg);
+    }
+
+    36.4% {
+        background: url(ImagesProject/LazaroA-lineIllusionlaceplungefrontandback.jpg);
+    }
+
+    45.5% {
+        background: url(ImagesProject/LazaroBallgownOrganzasweetheartlacebodicechapeltrain.jpg);
+    }
+
+
+    54.6% {
+        background: url(ImagesProject/PninaTornaiA-lineGuipurelaceplungefront.jpg);
+    }
+
+
+    63.7% {
+        background: url(ImagesProject/PninaTornaiCorsetSweetheartnecklinedroppedwaist.jpg);
+    }
+
+    72.8% {
+        background: url(ImagesProject/PninaTornaiMermaidHighnecklongsleevelacewithkick.jpg);
+    }
+
+    81.9% {
+        background: url(ImagesProject/RandyFenolliA-lineOffshoulderplaintoppleatedskirt.jpg);
+    }
+
+    91% {
+        background: url(ImagesProject/RandyFenolliBallgownSweetheart%20neckline%20full%20tulle%20dress.jpg);
+    }
+
+
+    100% {
+        background: url(ImagesProject/RandyFenolliMermaidSweetheartnecklinefulllacedress.jpg);
+    }
+
+}
+
+myvideo h1 {
+    color: #ba5150;
+    font-size: 28px;
+}
+
+
+myvideo {
+    display: flex;
+    justify-content: center;
+    
+    }
+
+
+.media {
+    position: relative;
+    top: 10%;
+    Left: 70%;
+    transform: translate(-53%, -44%);
+
+}
+
+.media li {
+    list-style: none;
+    margin: 10px 30px;
+    display: inline-block;
+    font-size: 30px;
+    padding: 10px 10px;
+    color: aqua;
+    border: 6px solid #ba5150;
+    border-radius: 30%;
+    transition: .5s;
+
+}
+
+.media li:hover {
+    color: white;
+    border: 6px solid #c4887a;
+    transition: .5s;
+}
+
+.counter {
+    list-style: none;
+    margin: 55px 10px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 10px;
+    color: #ba5150;
+    border: 3px solid #ba5150;
+    border-radius: 30%;
+    font-family: 'Lobster', serif;
+
+}
+
+.mybutton {
+    list-style: none;
+    margin: 5px 30px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 10px;
+    color: #ba5150;
+    border: 6px solid #ba5150;
+    border-radius: 30%;
+    font-family: 'Lobster', serif;
+}
+
+.formdetails {
+    color: #ba5150;
+    font-size: 20px;
+}
+form action {color: #ba5150;
+    font-size: 20px;    
+}
+
+.inputwrapper {
+    margin-bottom: 30px;
+}
+
+input[type=text],
+input[type=email],
+input[type=date]
+textarea {
+
+    padding: 12px 20px;
+    width: 100%;
+    font-size: 1rem;
+    box-sizing: border-box;
+    color: #ba5150;
+
+}
+
+.newline {
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+.margain-right-a {
+    margin-right: 20px;
+}
+
+input[type=radio] {
+    margin-right: 10px;
+}
+
+form {
+    margin: 40px 0;
+    color: #ba5150;
+}
+
+
+
+
+@media all and (max-width: 1000px) {
+
+    .navigation ul {
+        flex-wrap: wrap;
+    }
+
+    .navigation li {
+        flex: 1 1 50%;
+    }
+
+    .navigation .user {
+        flex: 1 1 33.33%;
+    }
+}
+
+/*this is the end of the media query 1000px */
+
+@media all and (max-width: 600px) {
+
+    .navigation li {
+        flex-basis: 100%;
+    }
+
+    . navigation .user {
+        flex-basis: 50%;
+    }
+
+    /* this is the end of the media query 600px*/
+
+}

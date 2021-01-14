@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Booking Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f547b2d5e9.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+    <div class="header">
+        <h1> Say Yes To The Dress Bridal Salon&reg; </h1>
+        <h2> 57 Jeffers Street, Newbridge, Co Kildare</h2>
+
+        <img src="ImagesProject/BridalShowrooms.jpeg" alt="BridalShowrooms" width="200">
+
+    </div>
+    <nav class="navigation">
+        <ul>
+            <li><a href="RandyFenoli.html">Gowns by Randy Fenoli</a></li>
+            <li><a href="Lazaro.html">Gowns by Lazaro</a></li>
+            <li><a href="HaileyPaige.html">Gowns by Hailey Paige</a></li>
+            <li><a href="PninaTornai.html">Gowns by Pnina Tornai</a></li>
+            <li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="#">Booking Form</a></li>
+            <li><a href="index.html">Home</a></li>
+
+        </ul>
+    </nav>
+
+
+    <div class="formdetails">
+        <h2>Ready to make an appointment </h2>
+        <P>Please conplete the form below and we will contact you to arrange a suitable time for you and your bride squad to visit our salon. </P>
+    
+
+    <form action="mail.php" method="post">
+
+        <div class="inputwrapper">
+            <label for="Fname" class="newline">First Name</label>
+
+            <input type="text" name="name" id="name">
+
+        </div>
+        <div class="inputwrapper">
+            <label for="Sname" class="newline">Surname</label>
+
+            <input type="text" name="name" id="name">
+
+        </div>
+
+        <div class="inputwrapper"> <form action="/action_page.php">
+            <label for="Wedding Date" class="newline">Wedding Date</label>
+
+            <input type="date" name="name" id="Wedding date" placeholder="DD/MM/YYYY">
+        </form>
+        </div>
+        <div class="inputwrapper">
+            <label for="Dresssize" class="newline">Please indicate dress size</label>
+
+            <input type="text" name="name" id="name" placeholder="Select two sizes, example 12/14">
+
+        </div>
+
+        <div class="inputwrapper">
+
+            <label for="email" class="newline" id="Email">Email</label>
+            <input type="email" name="email" id="email" placeholder="dara@SYTTDBridal.com">
+
+        </div>
+
+        <div class="inputwrapper">
+            <label for="Phone" class="newline">Phone Number</label>
+
+            <input type="text" name="name" id="name">
+
+        </div>
+
+        <div class="inputwrapper">
+           <form action="/action_page.php">
+            <label for="Date for Appointment" class="newline">Date for Appointment (first choice)</label>
+
+            <input type="date" id="name" placeholder="DD/MM/YYYY"> </form>
+            
+
+        </div>
+
+        <div class="inputwrapper">
+           <form action="/action_page.php">
+            <label for="Alternative Date for Appointment" class="newline">Alternative Date for Appointment (second choice)</label>
+
+            <input type="date" id="name" placeholder="DD/MM/YYYY"></form>
+
+        </div>
+        
+        <div class="inputwrapper">
+
+            <p>How would you like to be contacted?</p>
+
+            <input type="radio" name="contact-preference" id="phone" value="phone">
+            <label for="phone" class="margin-right-a">Phone</label>
+            <input type="radio" name="contact-preference" id="email" value="email">
+            <label for="email">Email</label>
+        </div>
+
+        <div class="inputwrapper">
+            <p>To help us make the most of your appointment time choose your preferred designer, so we can have a selection of gowns ready</p> <label for="Preferred Designer" class="newline">Preferred Designer</label>
+            <select name="Preferred Designer" id="county">
+                <option value="Not-chosen"></option>
+                <option value="RF">Randy Fenoli</option>
+                <option value="PT">Pnina Tornai</option>
+                <option value="L">Lazaro</option>
+                <option value="HP">Hailey Paige</option>
+                <option value="Do not have one">Do not have one</option>
+
+            </select>
+
+
+        </div>
+        <input type="Submit" value="Submit" class="mybutton">
+
+    </form>
+
+</div>
+
+
+    <div class="media">
+        <ul>
+            <li><a href="https://www.facebook.com/Wedding-Dresses-239282646084690/"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="https://www.instagram.com/weddingdressesguide/?hl=en"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.pinterest.com/weddingchicks/wedding-dresses/"><i class="fab fa-pinterest"></i></a></li>
+
+        </ul>
+    </div>
+</body>
+
+</html>
