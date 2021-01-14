@@ -50,7 +50,8 @@ li a {
     display: inline-block;
     width: 100%;
     text-align: center;
-    box-shadow: 5px 5px 5px #813d3d;
+    /* REMOVING THIS CODE TO SHOW CHANGES TO A LIVE WEBSITE 
+    box-shadow: 5px 5px 5px #813d3d;*/
 
 }
 
